@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/MaybeJustJames/node-purescript-compiler#readme",
   "scripts": {
-    "build": "spago build && parcel build",
+    "build": "spago build && parcel build --no-source-maps",
     "test": "spago test"
   },
   "keywords": [

@@ -1,7 +1,6 @@
 { name = "node-purescript-compiler"
 , dependencies =
-  [ "console"
-  , "effect"
+  [ "effect"
   , "node-buffer"
   , "node-child-process"
   , "node-fs"
