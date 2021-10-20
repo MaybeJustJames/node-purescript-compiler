@@ -1,9 +1,17 @@
 {
   "name": "node-purescript-compiler",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Node.js interface to the PureScript compiler via Spago.",
   "source": "index.js",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaybeJustJames/node-purescript-compiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaybeJustJames/node-purescript-compiler/issues"
+  },
+  "homepage": "https://github.com/MaybeJustJames/node-purescript-compiler#readme",
   "scripts": {
     "build": "spago build && parcel build",
     "test": "spago test"
