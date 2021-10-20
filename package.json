@@ -1,7 +1,7 @@
 {
   "name": "node-purescript-compiler",
   "version": "0.0.1",
-  "description": "A node.js interface to the PureScript compiler.",
+  "description": "A Node.js interface to the PureScript compiler via Spago.",
   "source": "index.js",
   "main": "dist/index.js",
   "scripts": {
