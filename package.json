@@ -1,0 +1,31 @@
+{
+  "name": "node-purescript-compiler",
+  "version": "0.0.1",
+  "description": "A node.js interface to the PureScript compiler.",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "spago build && parcel build --log-level verbose",
+    "test": "spago test"
+  },
+  "keywords": [
+    "purescript",
+    "compiler",
+    "node"
+  ],
+  "author": "James Collier",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "purescript": "^0.14.4",
+    "spago": "^0.20.3"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "process": "^0.11.10",
+    "temp": "^0.9.4",
+    "util": "^0.12.4"
+  }
+}
