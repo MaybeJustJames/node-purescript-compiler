@@ -1,11 +1,11 @@
 {
   "name": "node-purescript-compiler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node.js interface to the PureScript compiler via Spago.",
   "source": "index.js",
   "main": "dist/index.js",
   "scripts": {
-    "build": "spago build && parcel build --log-level verbose",
+    "build": "spago build && parcel build",
     "test": "spago test"
   },
   "keywords": [
